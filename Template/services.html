@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="services-container">
+  <h2>Our Services</h2>
+  <p>We offer a range of travel services to help you plan the perfect trip. Our team of experts is here to provide you with personalized recommendations and support every step of the way.</p>
+  
+  <div class="service">
+    <img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Service 1">
+    <h3>Travel Planning</h3>
+    <p>We assist you in creating a customized travel itinerary that fits your preferences and budget. From flights to accommodations, we've got you covered.</p>
+  </div>
+  
+  <div class="service">
+    <img src="https://media.istockphoto.com/id/1071461664/photo/having-a-tour-through-the-city-streets.jpg?s=612x612&w=0&k=20&c=nlr914eKeQkYVpv7UgKCGU1oWLd97eRCi5e3jRggEhw=" alt="Service 2">
+    <h3>Guided Tours</h3>
+    <p>Join our guided tours to explore new destinations with local experts. We offer group and private tours to suit your needs.</p>
+  </div>
+  
+  <div class="service">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsRBTCu8A7jlWJ5wPw4vmG8DEiiPRV7b6LQ&s" alt="Service 3">
+    <h3>Accommodation Booking</h3>
+    <p>Find the best deals on hotels, resorts, and vacation rentals. We ensure your stay is comfortable and hassle-free.</p>
+  </div>
+  
+  <div class="service">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uTjmxMZ1rGIzDSMOXKz74_kF9ITqXDi9CA&s" alt="Service 4">
+    <h3>Travel Insurance</h3>
+    <p>Travel with peace of mind by choosing our comprehensive travel insurance plans. We've got you covered for unexpected events.</p>
+  </div>
+  
+  <div class="service">
+    <img src="https://cdn.educba.com/academy/wp-content/uploads/2017/02/Customer-Support-1.jpg" alt="Service 5">
+    <h3>24/7 Customer Support</h3>
+    <p>Our customer support team is available around the clock to assist you with any travel-related questions or issues.</p>
+  </div>
+</div>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+
+  .services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .services-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .services-container p {
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .service img {
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .service h3 {
+    margin: 0;
+    color: #007bff;
+  }
+
+  .service p {
+    margin: 5px 0 0;
+    color: #777;
+  }
+</style>
+{% endblock body %}

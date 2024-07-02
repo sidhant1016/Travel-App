@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block body %}
+<!-- Hero Section -->
+<section class="hero text-white text-center py-5" style="background-image: url('https://c8.alamy.com/zooms/9/37a3fcc0d2c34faea69971144dd23e16/pyttg4.jpg'); background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
+    <div class="container">
+        <h1 class="display-4">Welcome to JetSetJourney</h1>
+        <p class="lead">Discover your next adventure with us!</p>
+        <a href="/destinations" class="btn btn-primary btn-lg">Explore Destinations</a>
+    </div>
+</section>
+
+
+<!-- Featured Destinations -->
+<section class="featured-destinations py-5">
+    <div class="container">
+        <h2 class="text-center">Featured Destinations</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-1376930-2662116.jpg&fm=jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 1</h5>
+                        <p class="card-text">Experience the beauty of this amazing place.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2017/12/16/22/22/bora-bora-3023437_640.jpg" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 2</h5>
+                        <p class="card-text">Discover the hidden gems of this location.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://travel.usnews.com/images/New_Paris_pic_z3GdX0a.jpg" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 3</h5>
+                        <p class="card-text">Unwind and relax in this serene environment.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">What Our Travelers Say</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>"An unforgettable experience! The best trip ever."</p>
+                            <footer class="blockquote-footer">John<cite title="Source Title">from New York</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>"Amazing service and beautiful destinations."</p>
+                            <footer class="blockquote-footer">Mark<cite title="Source Title">from London</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>"Highly recommend JetSetJourney for your next vacation."</p>
+                            <footer class="blockquote-footer">Tom <cite title="Source Title">from Tokyo</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="call-to-action text-center py-5">
+    <div class="container">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Contact us today to plan your perfect trip!</p>
+        <a href="/contact" class="btn btn-primary btn-lg">Contact Us</a>
+    </div>
+</section>
+{% endblock body %}

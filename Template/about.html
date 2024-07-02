@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="about-container">
+  <h2>About Us</h2>
+  <p>Welcome to our website! We are dedicated to providing the best service possible. Our team of experts is here to help you with any needs you may have.</p>
+  
+  <h3>Our Mission</h3>
+  <p>Our mission is to deliver high-quality products and exceptional customer service. We strive to exceed our customers' expectations and continuously improve our offerings.</p>
+  
+  <h3>Our Team</h3>
+  <div class="team-member">
+    <img src="https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg" alt="Team Member 1">
+    <h4>Siddhant</h4>
+    <span>CEO & Founder</span>
+  </div>
+  <!-- Add more team members as needed -->
+</div>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .about-container h3 {
+    margin-top: 30px;
+    color: #007bff;
+  }
+
+  .about-container p {
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .team-member h4 {
+    margin: 0;
+    color: #333;
+  }
+
+  .team-member span {
+    margin: 15px;
+    color: #777;
+  }
+</style>
+{% endblock body %}
